@@ -16,4 +16,6 @@ After opening the software and making a connection, you'll have to make two tabl
 1. ACCOUNT
    - USERNAME, PASSWORD, BOSS
 2. QUESTIONS
-   - QUESTIONID, QUESTIONTEXT, CORRECTANSWER, ANSWERA, ANSWERB, ANSWERC, ANSWERD, AVAILABLE
+   - QUESTIONID, QUESTIONTEXT, CORRECTANSWER, ANSWERA, ANSWERB, ANSWERC, ANSWERD, AVAILABLE <br>
+***Don't forget to update any part of the code if necessary!*** <br>
+## Running on Linux
