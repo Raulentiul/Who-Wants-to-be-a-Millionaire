@@ -25,4 +25,7 @@ After opening the software and making a connection, you'll have to make two tabl
 sudo apt-get install openjfx
 javac --module-path /usr/share/openjfx/lib --add-modules javafx.controls -cp .:lib/ojdbc11.jar Main.java
 java --module-path /usr/share/openjfx/lib --add-modules javafx.controls -cp .:lib/ojdbc11.jar Main
-``` <br>
+```
+***In order to make it work, don't forget to install SQL Plus!*** <br>
+
+
