@@ -21,3 +21,8 @@ After opening the software and making a connection, you'll have to make two tabl
 
 ***Don't forget to update any part of the code if necessary!*** <br>
 ## Running on Linux
+```
+sudo apt-get install openjfx
+javac --module-path /usr/share/openjfx/lib --add-modules javafx.controls -cp .:lib/ojdbc11.jar Main.java
+java --module-path /usr/share/openjfx/lib --add-modules javafx.controls -cp .:lib/ojdbc11.jar Main
+``` <br>
