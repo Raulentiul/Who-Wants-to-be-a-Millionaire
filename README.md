@@ -4,6 +4,11 @@ This game was done using **JavaFX** and a connection to an **Oracle** Database. 
 The game features the three lifelines: FiftyFifty, AskAudience and PhoneFriend. <br>
 Unlike the television game, this one stops if the player fiinishes all the questions that are in the database. 
 ## Before runnig the project
-I used VS Code for this code. I also had to download the necessary libraries:
+I used VS Code for this program, so I had to download the necessary libraries:
 * For the connection with the Database, you need a [Connector](https://www.oracle.com/database/technologies/appdev/jdbc-downloads.html). 
-*
+* For the GUI libraries, I used [JavaFX](https://gluonhq.com/products/javafx/).
+* For the Test classes, I used JUnit, and it can be downloaded from within VS Code. It is not mandatory for the program to run.
+You may want to update the launch.json and the settings.json in order for the program to see the respective libraries.
+## Setting the Database
+In order to have a Database, you have to download [Oracle Database](https://www.oracle.com/ro/database/technologies/xe-downloads.html) and a [Software](https://www.oracle.com/database/sqldeveloper/technologies/download/) for easier use. <br>
+After the download, you'll have to open the SQL Plus command prompt, and input the username (**SYS as SYSDBA**) and any password you wish (in my code, **BlaBlaBla**). <br> 
