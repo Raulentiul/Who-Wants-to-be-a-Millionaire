@@ -7,8 +7,22 @@ Unlike the television game, this one stops if the player fiinishes all the quest
 I used VS Code for this program, so I had to download the necessary libraries:
 * For the connection with the Database, you need a [Connector](https://www.oracle.com/database/technologies/appdev/jdbc-downloads.html). 
 * For the GUI libraries, I used [JavaFX](https://gluonhq.com/products/javafx/).
-* For the Test classes, I used JUnit, and it can be downloaded from within VS Code. It is not mandatory for the program to run.
+* For the Test classes, I used JUnit, and it can be downloaded from within VS Code. It is not mandatory for the program to run. <br>
 You may want to update the launch.json and the settings.json in order for the program to see the respective libraries.
 ## Setting the Database
 In order to have a Database, you have to download [Oracle Database](https://www.oracle.com/ro/database/technologies/xe-downloads.html) and a [Software](https://www.oracle.com/database/sqldeveloper/technologies/download/) for easier use. <br>
 After the download, you'll have to open the SQL Plus command prompt, and input the username (**SYS as SYSDBA**) and any password you wish (in my code, **BlaBlaBla**). <br> 
+After opening the software and making a connection, you'll have to make two tables. <br>
+1. ACCOUNT
+  - USERNAME
+  - PASSWORD
+  - BOSS
+2. QUESTIONS
+  - QUESTIONID
+  - QUESTIONTEXT
+  - CORRECTANSWER
+  - ANSWERA
+  - ANSWERB
+  - ANSWERC
+  - ANSWERD
+  - AVAILABLE
