@@ -8,6 +8,7 @@ I used VS Code for this program, so I had to download the necessary libraries:
 * For the connection with the Database, you need a [Connector](https://www.oracle.com/database/technologies/appdev/jdbc-downloads.html). 
 * For the GUI libraries, I used [JavaFX](https://gluonhq.com/products/javafx/).
 * For the Test classes, I used JUnit, and it can be downloaded from within VS Code. It is not mandatory for the program to run. <br>
+
 You may want to update the launch.json and the settings.json in order for the program to see the respective libraries.
 ## Setting the Database
 In order to have a Database, you have to download [Oracle Database](https://www.oracle.com/ro/database/technologies/xe-downloads.html) and a [Software](https://www.oracle.com/database/sqldeveloper/technologies/download/) for easier use. <br>
@@ -17,5 +18,6 @@ After opening the software and making a connection, you'll have to make two tabl
    - USERNAME, PASSWORD, BOSS
 2. QUESTIONS
    - QUESTIONID, QUESTIONTEXT, CORRECTANSWER, ANSWERA, ANSWERB, ANSWERC, ANSWERD, AVAILABLE <br>
+
 ***Don't forget to update any part of the code if necessary!*** <br>
 ## Running on Linux
