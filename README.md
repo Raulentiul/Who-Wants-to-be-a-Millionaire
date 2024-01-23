@@ -14,9 +14,9 @@ In order to have a Database, you have to download [Oracle Database](https://www.
 After the download, you'll have to open the SQL Plus command prompt, and input the username (**SYS as SYSDBA**) and any password you wish (in my code, **BlaBlaBla**). <br> 
 After opening the software and making a connection, you'll have to make two tables. <br>
 1. ACCOUNT
-  - USERNAME
-  - PASSWORD
-  - BOSS
+   - USERNAME
+   - PASSWORD
+   - BOSS
 2. QUESTIONS
   - QUESTIONID
   - QUESTIONTEXT
